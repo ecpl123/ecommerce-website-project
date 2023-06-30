@@ -1,6 +1,5 @@
 //this is common so remember React.ReactNode type!!!
 
-
 type OscarProps = {
     children: React.ReactNode
 }

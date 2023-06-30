@@ -39,11 +39,12 @@ function App() {
       <Status status = 'success' />
       <Heading>This could be a price tag!</Heading>
       <Oscar>
-        <Heading>Oscar goes to Leonardo Dicaprio</Heading>
+        <Heading>Oscar goes to Leonardo Dicaprio</Heading> {/*here, I passed a heading as the property value of the oscar component*/}
       </Oscar>
       {/* <Greet name='Timmy' messageCount={20} isLoggedIn={false}/>
       <Person name={personName}/>
       <PersonList names={nameList}/> */}
+      <Greet name='Eryk' isLoggedIn={false} /> {/*creating optional properties, in this case message count is missing*/}
     </div>
   );
 }
